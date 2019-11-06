@@ -92,11 +92,9 @@ Open up ```psql```, connect to the ```myapp``` database, and you will see the ta
 
 
 ## Django Admin Console
-- [ ] In your terminal, run:
-
-```$ python3 manage.py createsuperuser```
-- [ ] Fill in the info in the boxes that pop up. 
-- [ ] Then, in myapp/admin.py, add the following:
+- [ ] In your terminal, run: ```$ python3 manage.py createsuperuser```
+- [ ] Create a username and password. You may leave email address blank
+- [ ] Then, in ```myapp/admin.py```, add the following:
 
 ```
 from django.contrib import admin
@@ -106,7 +104,3 @@ admin.site.register(Example)
 ```
 
 - [ ] Then, navigate to localhost:8000/admin and login using the credentials you added in step 2.
-
-
-
-
