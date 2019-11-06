@@ -5,9 +5,7 @@
 ## Setup 
 
 - [ ] Start by creating a directory for our project: i.e. ```my_project``` (Usually done via cloning)
-- [ ] Make sure pipenv is installed:
-
-```brew install pipenv```
+- [ ] Make sure pipenv is installed: ```brew install pipenv```
 - [ ] ```cd``` into the ```my_project``` directory you created, then run: ```pipenv install django```
 - [ ] Install the library for connecting Django to PostgreSQL: ```pipenv install psycopg2-binary```
 - [ ] Open up the project in your favorite text editor ```code .``` for VS Code
